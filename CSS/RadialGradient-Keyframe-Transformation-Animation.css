@@ -1,0 +1,33 @@
+@keyframes A{
+    from {top: 0px;}
+    to {top: 300px;}
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+body{
+    background: radial-gradient(brown, black);
+}
+body section{
+    border: 2px solid black;
+    height: 500px;
+    font-family: fantasy;
+    font-size: xx-large;
+    color: wheat;
+   
+}
+#ball{
+        height: 100px;
+        background: radial-gradient(white,grey);
+        border-radius: 100px;
+        width: 100px;
+        position: relative;
+        animation: A 2s ;
+        animation-fill-mode: forwards;
+}
+#ball:hover {
+    height: 200px;
+    border-radius: 200px;
+    width: 200px;
+    transition: 1s;
+}

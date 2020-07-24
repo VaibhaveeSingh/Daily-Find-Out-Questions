@@ -1,0 +1,4 @@
+1.	Explore radial gradient as assignment 
+2.	Learn animations
+	a.	Key frame animation
+	b.	Transition animation
